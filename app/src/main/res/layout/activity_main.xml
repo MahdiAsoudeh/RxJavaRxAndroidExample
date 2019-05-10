@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.MainActivity" android:orientation="vertical">
+    <Button
+            android:text="1- Observable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnObservableActivity" android:layout_margin="8dp"
+            android:textSize="18sp"/>
+    <Button
+            android:text="2- Flowable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnFlowableActivity" android:layout_margin="8dp"
+            android:textSize="18sp"/>
+    <Button
+            android:text="3- Single"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnSingleActivity" android:layout_margin="8dp"
+            android:textSize="18sp"/>
+    <Button
+            android:text="4- Maybe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnMaybeActivity" android:layout_margin="8dp"
+            android:textSize="18sp"/>
+    <Button
+            android:text="5- Completable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnCompletableActivity" android:layout_margin="8dp"
+            android:textSize="18sp"/>
+</LinearLayout>
